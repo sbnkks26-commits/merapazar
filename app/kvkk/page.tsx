@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 export const metadata: Metadata = { title: "KVKK aydınlatma metni" };
-/* DİKKAT: Yayına almadan önce köşeli parantezli alanları kendi bilgilerinizle doldurun ve metni bir hukukçuya kontrol ettirin. */
-const VERI_SORUMLUSU = "[Ad Soyad / Şirket Unvanı]";
-const ADRES = "[Açık adres]";
-const EPOSTA = "[iletisim@alanadiniz.com]";
+/* Veri sorumlusu bilgileri. Metnin bir hukukçu tarafından kontrol edilmesi önerilir. */
+const VERI_SORUMLUSU = "Şaban Akkuş";
+const ADRES = "Güzelyaka Mah. 499. Cad. No: 22/30 Yenimahalle/Ankara";
+const EPOSTA = "sbnkks26@gmail.com";
 export default function Page() {
   return (
     <div className="wrap section"><div className="prose">

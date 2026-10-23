@@ -9,7 +9,7 @@ Türkiye geneli hayvan ilan sitesi. Next.js 15 (App Router) + Supabase. Arayüz 
   2. Auth: Email OTP açık; Magic Link şablonuna `{{ .Token }}` eklenir; Site URL + `/auth/callback` redirect eklenir.
   3. Netlify connector ile depo yayınlanır (`netlify.toml` hazır). Ortam değişkenleri:
      NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, NEXT_PUBLIC_SITE_URL.
-  4. Yayın sonrası: bir test ilanı verilip silinir; KVKK sayfasındaki köşeli parantezli alanlar kullanıcının bilgileriyle doldurulur.
+  4. Yayın sonrası: bir test ilanı verilip silinir. KVKK sayfası dolduruldu (veri sorumlusu: Şaban Akkuş).
 
 ## Kurallar
 - Örnek/sahte ilan eklenmez; site boş açılır.

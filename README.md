@@ -41,7 +41,7 @@ Bu klasörü GitHub'da yeni bir depoya yükleyin.
 Vercel → Project → **Settings → Domains** bölümüne alan adınızı ekleyin (ör. merapazar.com.tr) ve alan adı firmanızdaki DNS kayıtlarını Vercel'in gösterdiği gibi girin. Ardından Supabase'deki Site URL ve `NEXT_PUBLIC_SITE_URL` değerini yeni adresle güncelleyin.
 
 ### 5. Yayın öncesi kontrol listesi
-- [ ] `app/kvkk/page.tsx` içindeki köşeli parantezli alanları (veri sorumlusu, adres, e-posta) doldurun ve metni bir hukukçuya kontrol ettirin.
+- [x] KVKK veri sorumlusu bilgileri dolduruldu (`app/kvkk/page.tsx`). Metni bir hukukçuya kontrol ettirin.
 - [ ] SMTP ayarını yapın.
 - [ ] Kendi hesabınızla bir ilan verip telefon, WhatsApp, düzenleme ve silmeyi deneyin.
 - [ ] Şikâyetleri Supabase → **Table Editor → reports** tablosundan takip edin; uygunsuz ilanı aynı yerden `listings` tablosunda `durum` alanını `kaldirildi` yaparak yayından kaldırın.
